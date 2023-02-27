@@ -1,0 +1,316 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+@font-face {
+    font-family: Copper;
+    src: url(./Assets/Nestocopper42-1GVw2.ttf);
+}
+
+@font-face {
+    font-family: Informative;
+    src: url(./Assets/BlackthornsDemoBlack-L2GE.ttf);
+}
+#splash-bg{
+    z-index: 966;
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0vh;
+    left: 0vw;
+    background-image: url("./Assets/bg.png");
+    background-position: center;
+    background-size: cover;
+}
+
+#splash-heading{
+    z-index: 967;
+    position: absolute;
+    display: block;
+    width: 80vw;
+    height: 7vh;
+    top: 30vh;
+    left: 10vw;
+    background-image: url("./Assets/heading.png");
+    background-position: center;
+    background-size: cover;
+}
+
+#click-btn{
+    z-index: 967;
+    position: absolute;
+    display: block;
+    width: 50vw;
+    height: 6.5vh;
+    top: 60vh;
+    left: 25vw;
+    background-image: url("./Assets/ClickBtn.png");
+    background-position: center;
+    background-size: cover;
+}
+
+#mainbg{
+    z-index: 966;
+    position: absolute;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0vh;
+    left: 0vw;
+    background-image: url("./Assets/bg.png");
+    background-position: center;
+    background-size: cover;
+}
+
+
+#white-bg{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0vh;
+    left: 0vw;
+    background-image: url("./Assets/White-bg.png");
+    background-position: center;
+    background-size: cover;
+}
+
+#heading{
+    z-index: 967;
+    position: absolute;
+    display: block;
+    width: 80vw;
+    height: 7vh;
+    top: 10vh;
+    left: 10vw;
+    background-image: url("./Assets/heading.png");
+    background-position: center;
+    background-size: cover;
+}
+
+
+#value-temp{
+    position: absolute;
+    display: block;
+    width: 50vw;
+    height: 5vh;
+    top: 30vh;
+    left: 20vw;
+    font-size: 1.5em;
+    font-family:Copper;
+    word-wrap: break-word;
+    color: black;
+}
+
+#txt-temp{
+    position: absolute;
+    display: block;
+    width: 50vw;
+    height: 5vh;
+    top: 36vh;
+    left: 11vw;
+    font-size: 1em;
+    font-family:Copper;
+    word-wrap: break-word;
+    color: black;
+}
+
+#value-humidity{
+    position: absolute;
+    display: block;
+    width: 50vw;
+    height: 5vh;
+    top: 30vh;
+    left: 65vw;
+    font-size: 1.5em;
+    font-family:Copper;
+    word-wrap: break-word;
+    color: black;
+}
+
+#txt-humidity{
+    position: absolute;
+    display: block;
+    width: 50vw;
+    height: 5vh;
+    top: 36vh;
+    left: 62vw;
+    font-size: 1em;
+    font-family:Copper;
+    word-wrap: break-word;
+    color: black;
+}
+
+
+#value-sm{
+    position: absolute;
+    display: block;
+    width: 50vw;
+    height: 5vh;
+    top: 45vh;
+    left: 48vw;
+    font-size: 1.5em;
+    font-family:Copper;
+    word-wrap: break-word;
+    color: black;
+}
+
+#txt-sm{
+    position: absolute;
+    display: block;
+    width: 50vw;
+    height: 5vh;
+    top: 50vh;
+    left: 34vw;
+    font-size: 1em;
+    font-family:Copper;
+    word-wrap: break-word;
+    color: black;
+}
+
+#info-img{
+    position: absolute;
+    display: block;
+    width: 4vw;
+    height: 2vh;
+    top: 50vh;
+    left: 69vw;
+    background-image: url("./Assets/info.png");
+    background-size: cover;
+    background-position: center;
+}
+
+
+#info-dialog{
+    position: absolute;
+    display: none;
+    width: 50vw;
+    height: 22vh;
+    top: 51vh;
+    left: 20vw;
+    background-image: url("./Assets/info-dialog.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#dialog-txt1{
+    z-index: 967;
+    position: relative;
+    display: block;
+    width: 80vw;
+    height: 5vh;
+    top: 10vh;
+    left: 7vw;
+    font-size: 1em;
+    font-family: Copper;
+    color: black;
+}
+
+#dialog-txt2{
+    z-index: 967;
+    position: relative;
+    display: block;
+    width: 80vw;
+    height: 5vh;
+    top: 10vh;
+    left: 8vw;
+    font-size: 1em;
+    font-family: Copper;
+    color: black;
+}
+
+#info-txt{
+    position: absolute;
+    display: block;
+    width: 60vw;
+    height: 5vh;
+    top: 60vh;
+    left: 20vw;
+    font-size: 1em;
+    font-family: informative;
+    color: black;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+#start-virtual-garden{
+    z-index: 967;
+    position: absolute;
+    display: block;
+    width: 50vw;
+    height: 6.5vh;
+    top: 75vh;
+    left: 28vw;
+    background-image: url("./Assets/start-virtual-garden.png");
+    background-position: center;
+    background-size: cover;
+}
+
+#vr-bg{
+    z-index: 966;
+    position: absolute;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0vh;
+    left: 0vw;
+    background-image: url("./Assets/bg.png");
+    background-position: center;
+    background-size: cover;
+}
+
+
+#vr-white-bg{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0vh;
+    left: 0vw;
+    background-image: url("./Assets/White-bg.png");
+    background-position: center;
+    background-size: cover;
+}
+
+#vr-heading{
+    z-index: 967;
+    position: absolute;
+    display: block;
+    width: 80vw;
+    height: 7vh;
+    top: 10vh;
+    left: 10vw;
+    background-image: url("./Assets/heading.png");
+    background-position: center;
+    background-size: cover;
+}
+
+#vr-error-txt1{
+    position: absolute;
+    display: block;
+    width: 70vw;
+    height: 5vh;
+    top: 40vh;
+    left: 15vw;
+    font-size: 2em;
+    font-family: Copper;
+    color: black;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+#vr-error-txt2{
+    position: absolute;
+    display: block;
+    width: 80vw;
+    height: 5vh;
+    top: 45vh;
+    left: 10vw;
+    font-size: 2em;
+    font-family: Copper;
+    color: black;
+    word-wrap: break-word;
+    text-align: center;
+}
